@@ -74,20 +74,7 @@ GITHUB_TOKEN=ghp_xxxx
 
 All routes are under `/api/`.
 
-### `GET /api/health`
-Check if MongoDB and environment variables are connected correctly.
 
-**Response**
-```json
-{
-  "ok": true,
-  "checks": {
-    "mongodb": { "status": "ok", "message": "Connected successfully" },
-    "clerk":   { "status": "ok", "message": "Keys are present" },
-    "github":  { "status": "ok", "message": "Token is present" }
-  }
-}
-```
 
 ---
 
