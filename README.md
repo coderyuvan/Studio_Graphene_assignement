@@ -8,7 +8,7 @@ The app proxies all GitHub API calls through a Node.js backend (Next.js API rout
 
 ## Live Demo
 
-> Add your Vercel URL here after deployment
+https://studio-graphene-assignement.vercel.app/
 
 ---
 
